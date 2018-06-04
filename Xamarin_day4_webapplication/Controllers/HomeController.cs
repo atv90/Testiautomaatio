@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using Xamarin_day4_webapplication.Utilities;
 
 namespace Xamarin_day4_webapplication.Controllers
 {
@@ -11,8 +11,17 @@ namespace Xamarin_day4_webapplication.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.TämäViikko = DateParsing.GetWeekNumber(DateTime.Today);
             return View();
         }
+        [HttpPost]
+        public ActionResult Index(string pvm)
+        {
+            DateTime date = Utilities.DateParsing.ParseFinnishDate(pvm);
+            ViewBag.Päivämäärä = date;
+            return View();
+        }
+
 
         public ActionResult About()
         {
