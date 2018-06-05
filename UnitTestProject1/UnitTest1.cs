@@ -6,6 +6,7 @@ namespace UnitTestProject1
 {
     [TestClass]
     //testimetodien täytyy olla julkisia ja merkitty [TestMethod]
+    //muista lisätä viittaus testattavaan projektiin testausprojektin referenceihin
     public class UnitTest1
     {
         [TestMethod]
@@ -15,6 +16,7 @@ namespace UnitTestProject1
             string syöte = "4.6.2018";
             DateTime tulos = DateParsing.ParseFinnishDate(syöte);
             DateTime odotettu = new DateTime(2018, 6, 4);
+            //testataan tulokset Assert:illa
             Assert.AreEqual(odotettu, tulos);
 
             //karkauspvm

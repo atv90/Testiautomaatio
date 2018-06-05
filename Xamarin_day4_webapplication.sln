@@ -7,6 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_day4_webapplication
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{657F531F-0417-4825-9733-93926A49C58A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProject4", "CodedUITestProject4\CodedUITestProject4.csproj", "{23287059-4163-434A-940B-D3A77BB57C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAndLoadTestProject1", "WebAndLoadTestProject1\WebAndLoadTestProject1.csproj", "{77787164-CC38-4CE7-8536-8DD175D94BCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0FB6AEE-9F77-48E1-8BFE-F55764765F43}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,14 @@ Global
 		{657F531F-0417-4825-9733-93926A49C58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{657F531F-0417-4825-9733-93926A49C58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{657F531F-0417-4825-9733-93926A49C58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23287059-4163-434A-940B-D3A77BB57C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23287059-4163-434A-940B-D3A77BB57C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23287059-4163-434A-940B-D3A77BB57C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23287059-4163-434A-940B-D3A77BB57C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77787164-CC38-4CE7-8536-8DD175D94BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77787164-CC38-4CE7-8536-8DD175D94BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77787164-CC38-4CE7-8536-8DD175D94BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77787164-CC38-4CE7-8536-8DD175D94BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
